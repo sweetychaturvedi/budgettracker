@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace BudgetTracking
 {
-  public  class Account
+    public enum TypeOfAccounts
     {
-        public string AccountType { get; set; }
+        Checkings,
+        Savings
+    }
+    public class Account
+    {
+        public TypeOfAccounts AccountType { get; set; }
 
         public int AccountNumber { get; set; }
 

@@ -11,9 +11,7 @@ namespace BudgetTracking
 
         static void Main(string[] args)
         {
-
-
-            // Console.ReadLine();
+            var myAccount = AccountManager.AddAccount("chase", TypeOfAccounts.Savings);
         }
 
     }
