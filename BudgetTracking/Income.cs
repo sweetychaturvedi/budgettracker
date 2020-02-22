@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace BudgetTracking
 {
-   public class Income:Transaction
+    public class Income : Transaction
     {
-       
+
     }
 }

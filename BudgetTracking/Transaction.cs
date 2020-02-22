@@ -8,9 +8,9 @@ namespace BudgetTracking
 {
   public  class Transaction
     {
-        public DateTime CreditDate { get; set; }
+        public DateTime TransactionDate { get; set; }
 
-        public double Amount { get; set; }
+        public decimal Amount { get; set; }
 
         public int AccountNumber { get; set; }
     }
